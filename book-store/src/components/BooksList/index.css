@@ -1,0 +1,16 @@
+.loader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.failure-pic{
+    height: 300px;
+    width: 300px;
+}
+.orderBooks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

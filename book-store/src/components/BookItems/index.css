@@ -1,0 +1,29 @@
+.bookItemContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.book-pic{
+    height: 50px;
+    width: 50px;
+}
+.book-head{
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: black;
+}
+.book-subtitle{
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: normal;
+    color: black;
+}
+.book-cost{
+    font-size: 13px;
+    font-family: "Roboto";
+    font-weight: normal;
+    color: black;
+}
