@@ -1,0 +1,30 @@
+.notFoundContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.notFound-wordings{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.robo-pic{
+    height: 300px;
+    width: 300px;
+    border-radius: 25px;
+}
+.notFound_head{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.notFound-para{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}

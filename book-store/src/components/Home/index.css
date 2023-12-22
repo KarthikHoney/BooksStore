@@ -1,0 +1,32 @@
+.HomeContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-image: url("https://media.istockphoto.com/id/1503372066/photo/many-books-stacked-with-blurred-background-of-bookstore-full-of-books-photo-with-copyspace.webp?b=1&s=170667a&w=0&k=20&c=5hhwIae45aYJzxa4_t0LqyLkHumPmMLbxt0IwtGPGY0=");
+    background-size: cover;
+    height: 100vh;
+    min-width:100vh;
+}
+.HomeHead{
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.HomePara{
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.HomeButton{
+    color: black;
+    background-color: yellow;
+    border:0px;
+    font-size: 12px;
+    font-family: sans-serif;
+    border-radius: 2px;
+    cursor: pointer;
+}

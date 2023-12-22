@@ -1,0 +1,53 @@
+.HeaderContainer{
+    background-color: yellow;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    min-width: 100vh;
+}
+
+.LogoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.IconContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.iconName{
+    padding-right: 3px;
+}
+.iconArrange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:768px) {
+    .iconName{
+        display:none;
+    }
+}
+
+
+.icon{
+    padding-right: 4px;
+}
+
+.logo{
+    height: 20px;
+    width: 20px;
+    border-radius: 7px;
+    opacity: 1;
+    padding-right: 4px;
+}
+.LogoHead{
+    font-size: 14px;
+    font-family: Arial;
+    color: black;
+
+}
