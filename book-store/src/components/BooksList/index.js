@@ -64,13 +64,13 @@ class BooksList extends Component{
      renderListView=()=>{
         const {bookList}=this.state
         return(
-            <div>
+           
                 <ul className="orderBooks">
                     {bookList.map(listOfBooks=>(
                         <BookItems bookItemDetails={listOfBooks} key={listOfBooks.id}/>
                     ))}
                 </ul>
-            </div>
+            
         )
     }
 

@@ -5,7 +5,7 @@ const BookItems=props=>{
     const {bookItemDetails} = props
     const {imageUrl,title,cost,subtitle}=bookItemDetails
     return(
-        <li>
+        <li className="bookListContainer">
             <div className="bookItemContainer">
                 <img src={imageUrl} alt={title} className="book-pic"/>
                 <h1 className="book-head">{title}</h1>

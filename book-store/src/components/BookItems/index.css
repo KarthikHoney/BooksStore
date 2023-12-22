@@ -1,13 +1,25 @@
-.bookItemContainer{
+.bookListContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    list-style-type: none;
+   
+}
+.bookItemContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 50%;
+    
+ 
+    
+   
 }
 .book-pic{
-    height: 50px;
-    width: 50px;
+    height: 200px;
+    width: 200px;
 }
 .book-head{
     font-size: 18px;
